@@ -1,0 +1,405 @@
+@charset "UTF-8";
+h1 {
+  margin: 0;
+  padding: 23px 19px;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stock {
+  background-color: #ae1c1b;
+}
+
+.watch-pic {
+  background: url("/back1.4f231fa5.png");
+  width: 324px;
+  height: 390px;
+}
+.watch-pic .watch-img {
+  margin-top: 21px;
+  margin-left: 31px;
+}
+
+.description {
+  position: relative;
+  margin-bottom: 24px;
+  padding-top: 27px;
+  max-width: 324px;
+  color: #ae1c1b;
+  text-align: center;
+  max-height: 145px;
+}
+.description p {
+  font-family: "Roboto", sans-serif;
+}
+
+.smart {
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 0.55px;
+}
+
+.present {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 57px;
+  left: 62px;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.34px;
+}
+
+.itracker-desc {
+  margin: 0;
+  padding: 0;
+  margin-top: 25px;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.97px;
+  color: #333333;
+}
+
+.pic-list {
+  width: 320px;
+  height: 390px;
+  background: url("/back2.70c4f9ae.png");
+}
+.pic-list .watch-img-list {
+  margin-top: 64px;
+  margin-left: 210px;
+}
+
+.options-list {
+  padding-right: 5px;
+  margin-bottom: 11px;
+}
+.options-list ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 28px;
+  padding-left: 16px;
+}
+.options-list li {
+  position: relative;
+  margin-bottom: 7px;
+  list-style: none;
+  color: #272727;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.options-list li::before {
+  content: "✓";
+  position: absolute;
+  color: #ae1c1b;
+  left: -21px;
+  top: 3px;
+  font-family: "Gujarati MT";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+.options-list .lh {
+  line-height: 20px;
+}
+
+.sale-pic {
+  width: 320px;
+  height: 194px;
+  background: url("/watch3.dd98bbb2.png");
+}
+
+.sale {
+  width: 320px;
+  background-color: #ae1c1b;
+  text-align: center;
+}
+.sale h1 {
+  padding: 16px 29px 15px 28px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.iwatch {
+  width: 320px;
+  margin-bottom: 10px;
+  background: url("/back3.efdf2886.png");
+  background-position-y: -17px;
+}
+.iwatch .iwatch-titile {
+  text-align: center;
+}
+.iwatch p {
+  margin: 0;
+  padding: 0;
+  margin-top: 14px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.45px;
+}
+.iwatch .iwatch-img {
+  margin-top: 23px;
+  margin-left: 25px;
+}
+.iwatch .iwatch-list ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  padding-left: 63px;
+}
+.iwatch .iwatch-list li {
+  position: relative;
+  margin-bottom: 10px;
+  list-style: none;
+  color: #272727;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.9px;
+  word-spacing: -2px;
+}
+.iwatch .iwatch-list li::before {
+  content: "✓";
+  position: absolute;
+  color: #ae1c1b;
+  left: -25px;
+  top: 5px;
+  font-family: "Gujarati MT";
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.form-group {
+  background-color: rgba(0, 91, 155, 0.9);
+  text-align: center;
+}
+.form-group h1 {
+  padding: 0;
+  margin: 0;
+  padding-top: 28px;
+  padding-left: 43px;
+  padding-right: 43px;
+  padding-bottom: 7px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  word-spacing: -4px;
+}
+.form-group p {
+  padding: 0;
+  margin: 0;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.form-group .lt {
+  padding-bottom: 2px;
+  text-decoration: line-through;
+  letter-spacing: 0.5px;
+}
+.form-group .form-sail {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 9px;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 0.75px;
+  text-transform: lowercase;
+  word-spacing: 1px;
+}
+.form-group .form-action {
+  margin-bottom: 7px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.45px;
+}
+.form-group .watch-form {
+  margin-bottom: 32px;
+}
+.form-group .watch-form form {
+  margin-left: 34px;
+}
+.form-group .watch-form input {
+  display: block;
+  margin: 0;
+  margin-bottom: 12px;
+  padding-top: 15px;
+  padding-left: 14px;
+  padding-bottom: 13px;
+  padding-right: 108px;
+  line-height: 13px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}
+.form-group .watch-form input::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.form-group .watch-form .rus::placeholder {
+  color: #000000;
+}
+.form-group .input-arr {
+  position: relative;
+}
+.form-group .arrow {
+  position: relative;
+  display: inline-block;
+  top: 28px;
+  left: 87px;
+}
+.form-group button {
+  margin: 0;
+  padding: 0px 40px;
+  margin-bottom: 20px;
+  border: 3px solid #ffffff;
+  background-color: #ae1c1b;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.form-group .title-action {
+  margin-bottom: 3px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.45px;
+}
+.form-group ul {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 17px;
+  text-align: center;
+}
+.form-group ul li {
+  display: inline-block;
+  padding: 0px 13px;
+  text-align: center;
+  list-style: none;
+}
+.form-group .date {
+  margin-bottom: 3px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.75px;
+}
+.form-group .date-title {
+  padding-right: 2px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.35px;
+}
+.form-group .day {
+  margin: 0;
+}
+.form-group .hour {
+  margin: 0;
+}
+.form-group .min {
+  margin: 0;
+}
+.form-group .sec {
+  margin: 0;
+}
+.form-group .underline {
+  margin-bottom: 29px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: underline;
+  letter-spacing: 0.35px;
+}
+
+@media screen and (max-width: 322px) {
+  .description {
+    margin-bottom: 45px;
+  }
+
+  .form-group .watch-form form {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 310px) {
+  .form-group .watch-form form {
+    margin-left: 18px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .description {
+    margin-bottom: 80px;
+  }
+
+  .present {
+    top: 91px;
+    left: 36px;
+  }
+
+  .form-group .watch-form form {
+    margin-left: 12px;
+  }
+}
+@media screen and (max-width: 290px) {
+  .form-group .watch-form form {
+    margin-left: 12px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .form-group .watch-form form {
+    margin-left: 7px;
+  }
+}
+@media screen and (max-width: 275px) {
+  .form-group .watch-form form {
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width: 266px) {
+  .description {
+    margin-bottom: 95px;
+  }
+}
+
+/*# sourceMappingURL=/main.39afc03c.css.map */
