@@ -192,6 +192,7 @@ h1 {
 }
 
 .form-group {
+  padding-bottom: 25px;
   background-color: rgba(0, 91, 155, 0.9);
   text-align: center;
 }
